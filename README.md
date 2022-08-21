@@ -3,7 +3,7 @@ source code of the papre: An Improved Simultaneous Localization and Mapping Meth
 thanks   LeGO-LOAM(https://github.com/RobustFieldAutonomyLab/LeGO-LOAM),  LOAM(https://github.com/laboshinl/loam_velodyne),  ALOAM(https://github.com/HKUST-Aerial-Robotics/A-LOAM),  LeGO-LOAM_NOTED(https://github.com/wykxwyc/LeGO-LOAM_NOTED)
 # how to use
 1.download ./ws_lego_loam_mc_github.rar and unzip it to your ros workspace  
-2.change the traj output directory in LeGO-LOAM/src/mapOptimation.cpp at line 830 to your own directory and  Set trajNum=4541 at line 53  
+2.change the traj output directory in LeGO-LOAM/src/mapOptimation.cpp at line 830 to your own directory and  Set trajNum at line 53  
 3.catkin_make this package  
 4.source devel/setup.bash  
 5.roslaunch lego_loam run.launch  
