@@ -1,7 +1,8 @@
 # lego-loam-mc
 source code of the papre: An Improved Simultaneous Localization and Mapping Method base on LeGO-LOAM and Motion Compensation
 # how to use
-1.download ./ws_lego_loam_mc_github.rar and unzip it to your ros workspace\r\n
+1.download ./ws_lego_loam_mc_github.rar and unzip it to your ros workspace  
+
 2.change the traj output directory in LeGO-LOAM/src/mapOptimation.cpp at line 830 to your own directory
 3.catkin_make this package
 4.source devel/setup.bash
