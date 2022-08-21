@@ -1,6 +1,6 @@
 # lego-loam-mc
 source code of the papre: An Improved Simultaneous Localization and Mapping Method base on LeGO-LOAM and Motion Compensation  
-thanks LeGO-LOAM(https://github.com/RobustFieldAutonomyLab/LeGO-LOAM),LOAM(https://github.com/laboshinl/loam_velodyne),ALOAM(https://github.com/HKUST-Aerial-Robotics/A-LOAM),LeGO-LOAM_NOTED(https://github.com/wykxwyc/LeGO-LOAM_NOTED)
+thanks   LeGO-LOAM(https://github.com/RobustFieldAutonomyLab/LeGO-LOAM),  LOAM(https://github.com/laboshinl/loam_velodyne),  ALOAM(https://github.com/HKUST-Aerial-Robotics/A-LOAM),  LeGO-LOAM_NOTED(https://github.com/wykxwyc/LeGO-LOAM_NOTED)
 # how to use
 1.download ./ws_lego_loam_mc_github.rar and unzip it to your ros workspace  
 2.change the traj output directory in LeGO-LOAM/src/mapOptimation.cpp at line 830 to your own directory  
